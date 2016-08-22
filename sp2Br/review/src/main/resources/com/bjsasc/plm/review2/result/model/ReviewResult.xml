@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!DOCTYPE class PUBLIC "-//Objectmodel//DTD Configuration 1.0//EN" "http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+<class id="ReviewResult"  name="com.bjsasc.plm.review2.result.model.ReviewResult" display-name="评审结果" table="PLM_RV_RESULT" storageMode="alone" mappingMode="3" relation="false" parentID="ATObject">
+	<reference name="reviewObject" display-name="评审对象信息" class="ReviewObject"/>
+	<reference name="reviewOrder" display-name="评审单信息" class="ReviewOrder"/>
+	<reference name="executor" display-name="执行人" class="AAUserData"/>
+	<reference name="outerExpert" display-name="外域评委" class="OuterReviewExpert"/>
+	<property name="isExpertConfirm"  display-name="评审确认" type="string" length="255" />
+	<property name="expertCfmContent"  display-name="评委确认内容" type="string" />
+	<property name="isLeaderConfirm"  display-name="组长确认" type="string" length="255" />
+	<property name="leaderCfmContent"  display-name="组长确认内容"/>
+	<property name="resultType"  display-name="结果类型" type="string" length="255" />
+</class>

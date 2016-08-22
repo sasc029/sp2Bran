@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!DOCTYPE class PUBLIC "-//Objectmodel//DTD Configuration 1.0//EN" "http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+<class id="ExpertNode" name="com.bjsasc.plm.review2.expert.model.ExpertNode" display-name="专家分类管理" table="PLM_RV_NODE" storageMode="alone" mappingMode="3" relation="false" parentID="ATObject">
+  <property name="modifyStamp" display-name="修改时间" type="datetime"/>
+  <property name="name" display-name="节点名称" type="string" length="510"/>
+  <property name="createStamp" display-name="创建时间" type="datetime"/>
+  <reference name="creator" display-name="创建人" class="AAUserData"/>
+  <reference name="modifier" display-name="修改人" class="AAUserData"/>
+  <property name="parentID" display-name="父节点" type="string" length="510"/>
+  <property name="nodeType" display-name="节点类型" type="string" length="510"/>
+  <reference name="site" display-name="来源站点" class="Site"/>
+</class>

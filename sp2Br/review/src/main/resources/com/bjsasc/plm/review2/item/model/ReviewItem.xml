@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!DOCTYPE class PUBLIC "-//Objectmodel//DTD Configuration 1.0//EN" "http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+
+<class id="ReviewItem"  name="com.bjsasc.plm.review2.item.model.ReviewItem" display-name="待办事项" icon="/plm/images/review/newreview.gif" table="plm_rv_reviewitem" storageMode="share" mappingMode="3"  relation="false" parentID="ATObject">
+	<reference name="executor" display-name="任务执行者" class="AAUserData"/>
+	<reference name="sender" display-name="下发人" class="AAUserData"/>
+	<reference name="reviewOrder" display-name="所属评审单"  class="ReviewOrder"/>
+	<component name="manageInfo" display-name="管理信息" class="ManageInfo" />
+	<property name="itemName" display-name="名称" />
+	<property name="itemContents"  display-name="问题描述" />
+	<property name="itemSource" display-name="来源"  />
+	<property name="itemType" display-name="类型"  />
+	<property name="productIID"  display-name="产品"/>
+	<property name="productName" display-name="产品ID"  type="string"/>
+	<property name="professionID" display-name="专业ID"  type="string"/>
+	<property name="professionName"  display-name="专业名称"/>
+	<property name="phaseId"  display-name="阶段ID"/>
+	<property name="phaseName"  display-name="阶段名称"/>
+	<property name="startTime"  display-name="开始时间"/>
+	<property name="deadLine"  display-name="截止日期"/>
+	<property name="endTime"  display-name="完成时间"/>
+	<property name="formatter"  display-name="完成形式"/>
+	<property name="note"  display-name="备注"/>
+	<property name="state"  display-name="状态"/>
+	<property name="isConfirm"  display-name="是否落实"/>
+	<property name="dealContents"  display-name="落实情况"/>
+	<property name="sourceSiteInnerId"  display-name="所属站点"/>
+	<property name="itemResult"  display-name="结果"/>
+</class>

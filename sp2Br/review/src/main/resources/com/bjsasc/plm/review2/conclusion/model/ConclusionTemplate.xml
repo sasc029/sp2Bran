@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!DOCTYPE class PUBLIC "-//Objectmodel//DTD Configuration 1.0//EN" "http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+
+<class id="ConclusionTemplateHS"  name="com.bjsasc.plm.review2.conclusion.model.ConclusionTemplateHS" display-name="描述性结论模板" table="PLM_RV_CONCLUSIONTEMPLATE" storageMode="share" mappingMode="3"  relation="false" parentID="ATObject">
+<property name="number" display-name="编号" column="id" unique="true"/>
+<property name="name" display-name="名称" />
+<property  name="contents"  display-name="内容" type="string" length="1024"/>
+<component name="manageInfo" display-name="管理信息" class="ManageInfo" />
+</class>

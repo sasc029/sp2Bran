@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE class PUBLIC 
+			"-//Objectmodel//DTD Configuration 1.0//EN" 
+			"http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+<class id="ATReviewExpert" name="ATReviewExpert" display-name="评审专家" icon="/plm/images/common/task.gif" relation="false" mappingMode="3" polymorphism="implicit" parentID="ATObject">
+	
+</class>

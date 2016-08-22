@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!DOCTYPE class PUBLIC "-//Objectmodel//DTD Configuration 1.0//EN" "http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+<class id="ReviewObject"  name="com.bjsasc.plm.review2.object.model.ReviewObject" display-name="评审对象" table="PLM_RV_REVIEWOBJ" storageMode="share" mappingMode="3" relation="false" parentID="ATObject">
+	<property name="docId" display-name="函审文件Id" column="docId" length="510"/>
+	<property name="pin" display-name="函审文件编号" column="pin" length="510"/>
+	<property name="dataUrl" display-name="数据链接" column="dataUrl" length="510"/>
+	<property name="docName" display-name="函审文件名称" column="docName" length="510"/>
+	<property name="version" display-name="版本" column="version" length="510"/>
+	<property name="state" display-name="状态" column="state" length="510"/>
+	<property name="reviewState" display-name="评审状态" column="reviewState" length="510"/>
+	<property name="reviewFlag" display-name="是否可进行会议评审" column="reviewFlag" length="510"/>
+	<property name="scurityLevel" display-name="密级" column="scurityLevel" length="510"/>
+	<property name="phaseId" display-name="阶段" column="phaseId" length="510"/>
+	<property name="phaseName" display-name="阶段" column="phaseName" length="510"/>
+	<property name="professionID" display-name="专业" column="professionID" length="510"/>
+	<property name="professionName" display-name="专业" column="professionName" length="510"/>
+	<property name="createUserIId" display-name="设计师ID" column="createUserIId" length="510"/>
+	<property name="createUserName" display-name="设计师" column="createUserName" length="510"/>
+	<property name="createTime" display-name="创建时间" column="createTime" type="long"/>
+	<property name="productIID" display-name="产品IID" column="productIID" length="510"/>
+	<property name="productId" display-name="产品ID" column="productId" length="510"/>
+	<property name="productName" display-name="产品名称" column="productName" length="510"/>
+	<property name="sourceSiteInnerId" display-name="来源站点" column="sourceSiteInnerId" length="510"/>
+	<component name="contextInfo" display-name="所属上下文信息" class="ContextInfo" />
+	<component name="folderInfo" display-name="所属文件夹" class="FolderInfo" />
+	<component name="domainInfo" display-name="所属域信息" class="DomainInfo" />
+</class>

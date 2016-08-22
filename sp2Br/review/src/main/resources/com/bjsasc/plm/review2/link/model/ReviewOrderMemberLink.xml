@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!DOCTYPE class PUBLIC "-//Objectmodel//DTD Configuration 1.0//EN" "http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+
+<class id="ReviewOrderMemberLink"  name="com.bjsasc.plm.review2.link.model.ReviewOrderMemberLink" display-name="待评对象关系" table="PLM_RV_MEMBERLINK" storageMode="share" mappingMode="3" relation="true" parentID="ATLink">
+<property name="objType"  display-name="待评对象类型" />
+</class>

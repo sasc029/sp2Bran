@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!DOCTYPE class PUBLIC "-//Objectmodel//DTD Configuration 1.0//EN" "http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+<class id="ReviewTask"  name="com.bjsasc.plm.review2.task.model.ReviewTask" display-name="函审任务" table="PLM_RV_TASK" storageMode="alone" mappingMode="3" relation="false" parentID="ATObject">
+	<reference name="executor" display-name="任务负责人" class="User"/>
+	<reference name="reviewOrder" display-name="评审单信息" class="ReviewOrder"/>
+	<reference name="reviewObject" display-name="评审对象" class="ReviewObject"/>
+	<property name="taskName" display-name="任务名称" type="string" length="255"/>
+	<component name="manageInfo" display-name="管理信息" class="ManageInfo" />
+	<property name="taskState"  display-name="任务状态" type="string" length="255" />
+	<property name="taskRole"  display-name="任务角色" type="string" length="255" />
+</class>

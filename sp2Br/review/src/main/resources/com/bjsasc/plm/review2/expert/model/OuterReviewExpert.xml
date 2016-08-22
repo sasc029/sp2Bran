@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!DOCTYPE class PUBLIC "-//Objectmodel//DTD Configuration 1.0//EN" "http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+
+<class id="OuterReviewExpert"  name="com.bjsasc.plm.review2.expert.model.OuterReviewExpert" display-name="域外评审专家" table="PLM_RV_OUTEREXPERT" storageMode="share" mappingMode="3" relation="false" parentID="ATReviewExpert">
+<property name="name" display-name="姓名" column="name" length="510"/>
+<property name="sex" display-name="性别" column="sex" length="510"/>
+<property  name="phone"  display-name="电话" type="string" column="phone" length="510"/>
+<property  name="workUnit"  display-name="单位" type="string" column="workUnit" length="510"/>
+<property  name="note"  display-name="备注" type="string" column="note" length="510"/>
+<component name="manageInfo" display-name="管理信息" class="ManageInfo" />
+<reference name="site" display-name="来源站点" class="Site"/>
+</class>

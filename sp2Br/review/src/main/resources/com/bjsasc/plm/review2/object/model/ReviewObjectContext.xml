@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!DOCTYPE class PUBLIC "-//Objectmodel//DTD Configuration 1.0//EN" "http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+<class id="ReviewObjectContext"  name="com.bjsasc.plm.review2.object.model.ReviewObjectContext" display-name="评审对象上下文缓存区配置" table="PLM_RV_REVIEWOBJCTX" storageMode="share" mappingMode="3" relation="false" parentID="ATObject">
+	<reference name="product" display-name="产品信息" class="ProductContext"/>
+	<reference name="sourceSite" display-name="源站点" class="Site"/>
+	 <reference name="folder" display-name="文件夹"/>
+	<component name="manageInfo" display-name="管理信息" class="ManageInfo" />
+</class>

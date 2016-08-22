@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE class PUBLIC "-//Objectmodel//DTD Configuration 1.0//EN" "http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+<class id="ReviewOutDivision" name="com.bjsasc.plm.review2.div.model.ReviewOutDivision" display-name="会议评审分发信息 " table="PLM_RV_OUTDIVISION" storageMode="alone" relation="false" mappingMode="3" parentID="ATObject">
+	<property name="outDivId" display-name="外部单位编号" type="string" length="510"/>
+	<property name="outDivInnerId" display-name="外部单位innerId" type="string" length="510"/>
+	<property name="outDivNam" display-name="外部单位名称" type="String" length="510"/>
+	<property name="parentDiv" display-name="上级单位" type="string" length="510"/>
+	<property name="siteInnerId" display-name="来源站点" type="String" length="510"/>
+</class>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!DOCTYPE class PUBLIC "-//Objectmodel//DTD Configuration 1.0//EN" "http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+
+<class id="ReviewCommitteeMemberHS"  name="com.bjsasc.plm.review2.committee.model.ReviewCommitteeMemberHS" display-name="评委" icon="/plm/images/review/newreview.gif" table="plm_rv_member" storageMode="share" mappingMode="3"  relation="false" parentID="ATObject">
+	<reference name="expert" display-name="评委"/>
+	<reference name="reviewOrder" display-name="所属评审单"  class="ReviewOrder"/>
+	<property name="userLevel" display-name="职位"  type="string"/>
+	<property name="userorder"  display-name="评委顺序" type="int" length="10"/>
+</class>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!DOCTYPE class PUBLIC "-//Objectmodel//DTD Configuration 1.0//EN" "http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+<class id="ExpertNodeMember" name="com.bjsasc.plm.review2.expert.model.ExpertNodeMember" display-name="专家分类关系" table="PLM_RV_NODEMEMBER" storageMode="alone" relation="false" mappingMode="3" parentID="ATObject">
+	 <reference name="node" display-name="专家分类 " class="ExpertNode"/>
+	 <reference name="expert" display-name="专家 " class="ReviewExpert"/>
+     <component name="manageInfo" display-name="属性的管理信息" class="ManageInfo"/>
+     <property name="isCollect" display-name="是否收藏"/>
+</class>

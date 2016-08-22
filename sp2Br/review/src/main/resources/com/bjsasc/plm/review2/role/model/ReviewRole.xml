@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE class PUBLIC "-//Objectmodel//DTD Configuration 1.0//EN" "http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+<class id="ReviewRole" name="com.bjsasc.plm.review2.role.model.ReviewRole" display-name="评审角色管理 " table="PLM_RV_ROLE" storageMode="alone" relation="false" mappingMode="3" parentID="ATObject">
+	<property name="roleID" display-name="角色编号" type="string" length="510"/>
+	<property name="roleName" display-name="角色名称" type="String" length="510"/>
+	<property name="roleDescription" display-name="角色描述" type="String" length="510"/>
+	<component name="manageInfo" display-name="属性的管理信息" class="ManageInfo"/>
+</class>

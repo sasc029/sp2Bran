@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!DOCTYPE class PUBLIC "-//Objectmodel//DTD Configuration 1.0//EN" "http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+
+<class id="ReviewOrder"  name="com.bjsasc.plm.review2.order.model.ReviewOrder" display-name="函审单" icon="/plm/images/review/newreview.gif" table="PLM_RV_ORDER" storageMode="share" mappingMode="3" relation="false" parentID="ATObject">
+<component name="contextInfo" display-name="所属上下文信息" class="ContextInfo" />
+<component name="domainInfo" display-name="所属域信息" class="DomainInfo" />
+<property name="number" display-name="编号" column="id" unique="true"/>
+<property name="name" display-name="名称" />
+<component name="manageInfo" display-name="管理信息" class="ManageInfo" />
+<component name="folderInfo" display-name="所属文件夹" class="FolderInfo" />
+<property name="reviewType" display-name="评审类型" type="string" length="255" />
+<property name="reviewScope" display-name="评审范围" type="string" length="255" />
+<property name="reviewTime"  display-name="评审时间" />
+<property name="startTime"  display-name="评审发起时间" />
+<property name="finishTime"  display-name="评审完成时间" />
+<property name="reviewPlace"  display-name="评审地点" type="string" length="255"/>
+<property name="state" display-name="状态" type="string" length="255" />
+<property name="notes" display-name="备注" type="string" length="512" />
+<reference name="template" display-name="文件模板引用" class="FileTemplate"/>
+<property name="reviewSource" display-name="缺陷来源" type="string"/>
+<component name="lifeCycleInfo" display-name="生命周期模板" class="LifeCycleInfo" />
+</class>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!DOCTYPE class PUBLIC "-//Objectmodel//DTD Configuration 1.0//EN" "http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+<class id="ReviewOpinion"  name="com.bjsasc.plm.review2.opinion.model.ReviewOpinion" display-name="评审意见" table="PLM_RV_OPINION" storageMode="alone" mappingMode="3" relation="false" parentID="ATObject">
+	<reference name="reviewobject" display-name="评审对象信息" class="ReviewObject"/>
+	<reference name="reviewOrder" display-name="评审单信息" class="ReviewOrder"/>
+	<reference name="executor" display-name="执行人" class="AAUserData"/>
+	<reference name="outerExpert" display-name="外域评委" class="OuterReviewExpert"/>
+	<reference name="answerUser" display-name="解答人信息" class="AAUserData"/>
+	<component name="manageInfo" display-name="管理信息" class="ManageInfo" />
+	<property name="opinionContent"  display-name="意见内容" type="string" />
+	<property name="opinionState"  display-name="意见状态" type="string" length="255" />
+	<property name="opinionType"  display-name="意见类型" type="string" length="255" />
+	<property name="answerTime"  display-name="解答时间"/>
+	<property name="answerContent"  display-name="解答内容" type="string"  />
+	<property name="orderFlag"  display-name="排序号" type="string" length="255" />
+</class>

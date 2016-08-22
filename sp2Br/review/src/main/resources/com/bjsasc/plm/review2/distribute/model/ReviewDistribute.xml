@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE class PUBLIC "-//Objectmodel//DTD Configuration 1.0//EN" "http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+<class id="ReviewDistribute" name="com.bjsasc.plm.review2.distribute.model.ReviewDistribute" display-name="会议评审分发信息 " table="PLM_RV_DISTRIBUTE" storageMode="alone" relation="false" mappingMode="3" parentID="ATObject">
+	<property name="userInnerId" display-name="评委innerId" type="string" length="510"/>
+	<property name="userName" display-name="评委名称" type="String" length="510"/>
+	<property name="unitInnerId" display-name="单位innerId" type="string" length="510"/>
+	<property name="unitName" display-name="单位名称" type="String" length="510"/>
+	<property name="type" display-name="类型" type="String" length="510"/>
+	<property name="countNum" display-name="分发份数"/>
+	<reference name="reviewOrder" display-name="所属评审单"  class="ReviewOrder"/>
+	<component name="manageInfo" display-name="属性的管理信息" class="ManageInfo"/>
+</class>

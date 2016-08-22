@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!DOCTYPE class PUBLIC "-//Objectmodel//DTD Configuration 1.0//EN" "http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+
+<class id="ReviewConclusionHS"  name="com.bjsasc.plm.review2.conclusion.model.ReviewConclusionHS" display-name="评审结论" icon="/plm/images/review/newreview.gif" table="plm_rv_reviewConclusion" storageMode="share" mappingMode="3"  relation="false" parentID="ATObject">
+	<reference name="reviewOrder" display-name="所属评审单"  class="ReviewOrder"/>
+	<component name="manageInfo" display-name="管理信息" class="ManageInfo" />
+	<property name="content" display-name="评述性结论" />
+	<property name="reviewResult"  display-name="评审结论" />
+	<property name="state" display-name="评审结论状态"  />
+</class>

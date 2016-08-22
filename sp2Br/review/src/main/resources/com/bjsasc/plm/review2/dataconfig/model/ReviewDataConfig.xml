@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!DOCTYPE class PUBLIC "-//Objectmodel//DTD Configuration 1.0//EN" "http://www.bjsasc.com/dtds/om-configuration-1.0.dtd">
+
+<class id="ReviewDataConfig"  name="com.bjsasc.plm.review2.dataconfig.model.ReviewDataConfig" display-name="数据字典" icon="/plm/images/review/newreview.gif" table="plm_rv_dataCfg" storageMode="share" mappingMode="3"  relation="false" parentID="ATObject">
+	<property name="dataName" display-name="数据名称" />
+	<property name="dataType"  display-name="类型" />
+	<property name="dataSource" display-name="所属类型"  />
+</class>
