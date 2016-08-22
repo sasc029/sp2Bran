@@ -44,6 +44,7 @@ public class ExpertUtil {
 		}else{
 			format = new SimpleDateFormat("yyyy-MM-dd");
 		}
+		System.out.println("分支合并测试4");
 		Date d = new Date(time);
 		return format.format(d);
 	}
